@@ -1,0 +1,1263 @@
+@import 'bootstrap/dist/css/bootstrap.min.css';
+
+/* Import Space-Themed Font */
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&family=Exo+2:wght@300;400;500;600;700;800&display=swap');
+
+/* Global Responsive Optimization - Better Readable Sizes */
+html {
+  font-size: 16px; /* Increased for better readability */
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  font-size: 1rem; /* Normal readable text */
+  line-height: 1.5; /* Better line height for readability */
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  min-height: 100vh;
+}
+
+/* Responsive Font Scaling - Improved Readability */
+@media (min-width: 1400px) {
+  html { font-size: 15px; } /* Good size for large screens */
+}
+
+@media (max-width: 1399px) {
+  html { font-size: 15px; }
+}
+
+@media (max-width: 1200px) {
+  html { font-size: 14px; }
+}
+
+@media (max-width: 992px) {
+  html { font-size: 13px; }
+}
+
+@media (max-width: 768px) {
+  html { font-size: 12px; }
+}
+
+@media (max-width: 576px) {
+  html { font-size: 11px; }
+}
+
+/* Container Responsive Fixes - Better Spacing */
+.container {
+  max-width: 100%;
+  padding-left: 1rem; /* Increased padding for better spacing */
+  padding-right: 1rem;
+}
+
+@media (min-width: 576px) {
+  .container { max-width: 540px; } /* Standard Bootstrap size */
+}
+
+@media (min-width: 768px) {
+  .container { max-width: 720px; } /* Standard Bootstrap size */
+}
+
+@media (min-width: 992px) {
+  .container { max-width: 960px; } /* Standard Bootstrap size */
+}
+
+@media (min-width: 1200px) {
+  .container { max-width: 1140px; } /* Standard Bootstrap size */
+}
+
+/* 🌐 HOLOGRAPHIC QUANTUM SCROLLBAR - Ultra-Modern Web 3.0 Design */
+
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: linear-gradient(135deg, 
+    rgba(5, 5, 20, 0.9) 0%,
+    rgba(15, 15, 40, 0.8) 25%,
+    rgba(25, 5, 35, 0.9) 50%,
+    rgba(10, 25, 45, 0.8) 75%,
+    rgba(5, 5, 20, 0.9) 100%
+  );
+  border-radius: 15px;
+  border: 1px solid transparent;
+  background-clip: padding-box;
+  position: relative;
+  overflow: hidden;
+}
+
+/* Holographic Track Effect */
+::-webkit-scrollbar-track::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: 
+    radial-gradient(circle at 20% 20%, rgba(0, 255, 255, 0.1) 0%, transparent 40%),
+    radial-gradient(circle at 80% 40%, rgba(255, 0, 255, 0.08) 0%, transparent 40%),
+    radial-gradient(circle at 40% 80%, rgba(0, 255, 0, 0.06) 0%, transparent 40%),
+    linear-gradient(45deg, 
+      transparent 30%, 
+      rgba(255, 255, 255, 0.02) 50%, 
+      transparent 70%
+    );
+  border-radius: 15px;
+  animation: holographic-shimmer 6s ease-in-out infinite;
+}
+
+/* Quantum Particle Scrollbar Thumb */
+::-webkit-scrollbar-thumb {
+  background: 
+    linear-gradient(45deg, 
+      rgba(0, 255, 255, 0.3) 0%,
+      rgba(255, 0, 255, 0.4) 20%,
+      rgba(255, 255, 0, 0.3) 40%,
+      rgba(0, 255, 0, 0.4) 60%,
+      rgba(255, 0, 128, 0.3) 80%,
+      rgba(0, 255, 255, 0.3) 100%
+    ),
+    radial-gradient(ellipse at center, 
+      rgba(255, 255, 255, 0.2) 0%,
+      transparent 70%
+    );
+  background-size: 400% 400%, 100% 100%;
+  border-radius: 15px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  position: relative;
+  transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+  animation: quantum-flow 8s ease-in-out infinite;
+  box-shadow: 
+    0 0 15px rgba(0, 255, 255, 0.3),
+    inset 0 1px 0 rgba(255, 255, 255, 0.2),
+    0 4px 20px rgba(255, 0, 255, 0.2);
+}
+
+/* Holographic Hover - Reality Distortion */
+::-webkit-scrollbar-thumb:hover {
+  background: 
+    linear-gradient(45deg, 
+      rgba(0, 255, 255, 0.6) 0%,
+      rgba(255, 0, 255, 0.7) 15%,
+      rgba(255, 255, 0, 0.6) 30%,
+      rgba(0, 255, 0, 0.7) 45%,
+      rgba(255, 0, 128, 0.6) 60%,
+      rgba(128, 0, 255, 0.7) 75%,
+      rgba(0, 255, 255, 0.6) 100%
+    ),
+    radial-gradient(ellipse at center, 
+      rgba(255, 255, 255, 0.4) 0%,
+      transparent 60%
+    );
+  background-size: 600% 600%, 120% 120%;
+  animation: 
+    reality-distortion 1.2s ease-in-out infinite,
+    quantum-flow 4s ease-in-out infinite;
+  box-shadow: 
+    0 0 25px rgba(0, 255, 255, 0.6),
+    0 0 35px rgba(255, 0, 255, 0.5),
+    0 0 45px rgba(255, 255, 0, 0.4),
+    inset 0 1px 0 rgba(255, 255, 255, 0.4),
+    0 8px 30px rgba(128, 0, 255, 0.3);
+  transform: scaleY(1.15) scaleX(1.05);
+  filter: blur(0.5px) brightness(1.3);
+}
+
+/* Quantum Teleportation Active State */
+::-webkit-scrollbar-thumb:active {
+  background: 
+    linear-gradient(45deg, 
+      rgba(255, 255, 255, 0.8) 0%,
+      rgba(0, 255, 255, 0.9) 12%,
+      rgba(255, 0, 255, 0.8) 24%,
+      rgba(255, 255, 0, 0.9) 36%,
+      rgba(0, 255, 0, 0.8) 48%,
+      rgba(255, 0, 128, 0.9) 60%,
+      rgba(128, 0, 255, 0.8) 72%,
+      rgba(255, 128, 0, 0.9) 84%,
+      rgba(255, 255, 255, 0.8) 100%
+    ),
+    radial-gradient(ellipse at center, 
+      rgba(255, 255, 255, 0.6) 0%,
+      transparent 50%
+    );
+  background-size: 800% 800%, 150% 150%;
+  animation: quantum-teleport 0.4s ease-in-out infinite;
+  box-shadow: 
+    0 0 40px rgba(255, 255, 255, 0.8),
+    0 0 60px rgba(0, 255, 255, 0.7),
+    0 0 80px rgba(255, 0, 255, 0.6),
+    inset 0 2px 0 rgba(255, 255, 255, 0.6),
+    0 12px 40px rgba(255, 255, 0, 0.4);
+  transform: scaleY(1.3) scaleX(1.1);
+  filter: blur(1px) brightness(1.8) saturate(2);
+}
+
+::-webkit-scrollbar-corner {
+  background: transparent;
+}
+
+/* 🌈 Holographic Shimmer Animation */
+@keyframes holographic-shimmer {
+  0% { 
+    background-position: 0% 0%, 0% 100%, 100% 0%, 0% 50%;
+    opacity: 0.6;
+  }
+  25% { 
+    background-position: 50% 25%, 25% 75%, 75% 25%, 25% 25%;
+    opacity: 0.8;
+  }
+  50% { 
+    background-position: 100% 50%, 50% 50%, 50% 50%, 50% 0%;
+    opacity: 1;
+  }
+  75% { 
+    background-position: 75% 75%, 75% 25%, 25% 75%, 75% 75%;
+    opacity: 0.8;
+  }
+  100% { 
+    background-position: 0% 100%, 100% 0%, 0% 100%, 100% 100%;
+    opacity: 0.6;
+  }
+}
+
+/* 🔮 Quantum Flow Animation */
+@keyframes quantum-flow {
+  0% { 
+    background-position: 0% 50%, 0% 0%;
+    filter: hue-rotate(0deg) brightness(1) contrast(1);
+  }
+  20% { 
+    background-position: 20% 70%, 25% 25%;
+    filter: hue-rotate(72deg) brightness(1.1) contrast(1.1);
+  }
+  40% { 
+    background-position: 60% 30%, 50% 50%;
+    filter: hue-rotate(144deg) brightness(1.2) contrast(1.2);
+  }
+  60% { 
+    background-position: 80% 80%, 75% 75%;
+    filter: hue-rotate(216deg) brightness(1.1) contrast(1.1);
+  }
+  80% { 
+    background-position: 40% 20%, 100% 100%;
+    filter: hue-rotate(288deg) brightness(1) contrast(1);
+  }
+  100% { 
+    background-position: 0% 50%, 0% 0%;
+    filter: hue-rotate(360deg) brightness(1) contrast(1);
+  }
+}
+
+/* 🌀 Reality Distortion Animation */
+@keyframes reality-distortion {
+  0% { 
+    background-position: 0% 50%, 50% 50%;
+    transform: scaleY(1.15) scaleX(1.05) perspective(1000px) rotateY(0deg);
+    filter: blur(0.5px) brightness(1.3) saturate(1.5);
+  }
+  25% { 
+    background-position: 50% 0%, 0% 100%;
+    transform: scaleY(1.18) scaleX(1.08) perspective(1000px) rotateY(2deg);
+    filter: blur(0.3px) brightness(1.4) saturate(1.7);
+  }
+  50% { 
+    background-position: 100% 50%, 50% 0%;
+    transform: scaleY(1.2) scaleX(1.1) perspective(1000px) rotateY(0deg);
+    filter: blur(0.8px) brightness(1.5) saturate(2);
+  }
+  75% { 
+    background-position: 50% 100%, 100% 50%;
+    transform: scaleY(1.18) scaleX(1.08) perspective(1000px) rotateY(-2deg);
+    filter: blur(0.3px) brightness(1.4) saturate(1.7);
+  }
+  100% { 
+    background-position: 0% 50%, 50% 50%;
+    transform: scaleY(1.15) scaleX(1.05) perspective(1000px) rotateY(0deg);
+    filter: blur(0.5px) brightness(1.3) saturate(1.5);
+  }
+}
+
+/* ⚡ Quantum Teleportation Animation */
+@keyframes quantum-teleport {
+  0% { 
+    background-position: 0% 0%, 0% 0%;
+    transform: scaleY(1.3) scaleX(1.1) perspective(1000px) rotateY(0deg) rotateX(0deg);
+    filter: blur(1px) brightness(1.8) saturate(2) hue-rotate(0deg);
+  }
+  25% { 
+    background-position: 100% 50%, 50% 100%;
+    transform: scaleY(1.35) scaleX(1.15) perspective(1000px) rotateY(5deg) rotateX(2deg);
+    filter: blur(1.5px) brightness(2.2) saturate(2.5) hue-rotate(90deg);
+  }
+  50% { 
+    background-position: 50% 100%, 100% 50%;
+    transform: scaleY(1.4) scaleX(1.2) perspective(1000px) rotateY(0deg) rotateX(0deg);
+    filter: blur(2px) brightness(2.5) saturate(3) hue-rotate(180deg);
+  }
+  75% { 
+    background-position: 0% 50%, 50% 0%;
+    transform: scaleY(1.35) scaleX(1.15) perspective(1000px) rotateY(-5deg) rotateX(-2deg);
+    filter: blur(1.5px) brightness(2.2) saturate(2.5) hue-rotate(270deg);
+  }
+  100% { 
+    background-position: 0% 0%, 0% 0%;
+    transform: scaleY(1.3) scaleX(1.1) perspective(1000px) rotateY(0deg) rotateX(0deg);
+    filter: blur(1px) brightness(1.8) saturate(2) hue-rotate(360deg);
+  }
+}
+
+/* 🎨 Firefox Support - Holographic Quantum Scrollbar */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: rgba(0, 255, 255, 0.6) rgba(5, 5, 20, 0.8);
+}
+
+/* 🚀 Enhanced Body Scrolling Performance */
+body {
+  scroll-behavior: smooth;
+  -webkit-overflow-scrolling: touch;
+}
+
+/* 📱 Mobile Touch Scrolling Optimization */
+.space-background {
+  -webkit-overflow-scrolling: touch;
+  overscroll-behavior: contain;
+}
+
+/* Custom CSS to match Tailwind design */
+:root {
+  --bs-orange: #f97316;
+  --bs-orange-light: #fed7aa;
+  --bs-orange-dark: #ea580c;
+  --bs-green: #22c55e;
+  --bs-green-light: #dcfce7;
+  --bs-green-dark: #16a34a;
+  --bs-red: #ef4444;
+  --bs-red-light: #fecaca;
+  --bs-red-dark: #dc2626;
+  --bs-blue: #3b82f6;
+  --bs-blue-light: #dbeafe;
+  --bs-blue-dark: #2563eb;
+  --bs-purple: #8b5cf6;
+  --bs-purple-light: #e9d5ff;
+  --bs-purple-dark: #7c3aed;
+  --bs-yellow: #eab308;
+  --bs-yellow-light: #fef3c7;
+  --bs-yellow-dark: #ca8a04;
+}
+
+/* ===== COSMIC SPACE THEME ===== */
+.space-background {
+  background: linear-gradient(135deg, #0c0c0c 0%, #1a1a2e 25%, #16213e 50%, #0f3460 75%, #533a7b 100%);
+  position: relative;
+  overflow: hidden;
+  min-height: 100vh;
+  font-family: 'Exo 2', sans-serif;
+}
+
+/* Space-themed fonts */
+.space-font-primary {
+  font-family: 'Orbitron', monospace;
+}
+
+.space-font-secondary {
+  font-family: 'Exo 2', sans-serif;
+}
+
+/* Enhanced Cosmic Background Elements - REMOVED */
+.cosmic-orb {
+  display: none; /* Completely hidden as requested */
+}
+
+.cosmic-orb-1 {
+  width: 150px;
+  height: 150px;
+  top: 10%;
+  left: 15%;
+  animation-delay: 0s;
+  animation-duration: 25s;
+  background: radial-gradient(circle at 30% 30%, rgba(102, 126, 234, 0.8), rgba(67, 233, 123, 0.5), rgba(255, 255, 255, 0.2));
+}
+
+.cosmic-orb-2 {
+  width: 100px;
+  height: 100px;
+  top: 60%;
+  right: 20%;
+  animation-delay: 5s;
+  animation-duration: 30s;
+  background: radial-gradient(circle at 30% 30%, rgba(67, 233, 123, 0.8), rgba(102, 126, 234, 0.5), rgba(255, 255, 255, 0.2));
+}
+
+.cosmic-orb-3 {
+  width: 80px;
+  height: 80px;
+  bottom: 20%;
+  left: 25%;
+  animation-delay: 10s;
+  animation-duration: 35s;
+  background: radial-gradient(circle at 30% 30%, rgba(240, 147, 251, 0.8), rgba(253, 121, 168, 0.5), rgba(255, 255, 255, 0.2));
+}
+
+.cosmic-orb-4 {
+  width: 120px;
+  height: 120px;
+  top: 30%;
+  right: 10%;
+  animation-delay: 15s;
+  animation-duration: 28s;
+  background: radial-gradient(circle at 30% 30%, rgba(255, 234, 167, 0.8), rgba(253, 203, 110, 0.5), rgba(255, 255, 255, 0.2));
+}
+
+/* Additional Cosmic Stars */
+.space-background::before {
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: 
+    radial-gradient(2px 2px at 20% 30%, rgba(255,255,255,0.8), transparent),
+    radial-gradient(2px 2px at 40% 70%, rgba(255,255,255,0.6), transparent),
+    radial-gradient(1px 1px at 90% 40%, rgba(255,255,255,0.9), transparent),
+    radial-gradient(1px 1px at 50% 60%, rgba(255,255,255,0.7), transparent),
+    radial-gradient(2px 2px at 80% 10%, rgba(255,255,255,0.8), transparent),
+    radial-gradient(1px 1px at 10% 80%, rgba(255,255,255,0.6), transparent);
+  background-size: 550px 550px, 350px 350px, 250px 250px, 150px 150px, 300px 300px, 200px 200px;
+  animation: cosmic-stars-twinkle 12s ease-in-out infinite alternate;
+  pointer-events: none;
+  z-index: 0;
+}
+
+@keyframes cosmic-gentle-float {
+  0%, 100% { 
+    transform: translate(0, 0) scale(1);
+    opacity: 0.3;
+  }
+  25% { 
+    transform: translate(10px, -8px) scale(1.02);
+    opacity: 0.5;
+  }
+  50% { 
+    transform: translate(-8px, 12px) scale(0.98);
+    opacity: 0.4;
+  }
+  75% { 
+    transform: translate(12px, 6px) scale(1.01);
+    opacity: 0.6;
+  }
+}
+
+@keyframes cosmic-stars-twinkle {
+  0% { opacity: 0.6; transform: scale(1); }
+  25% { opacity: 1; transform: scale(1.1); }
+  50% { opacity: 0.8; transform: scale(0.9); }
+  75% { opacity: 1; transform: scale(1.05); }
+  100% { opacity: 0.7; transform: scale(1); }
+}
+
+/* Alternative Cosmic Background Effect */
+/* Diagonal blurry element completely removed */
+
+/* Shooting Stars - DISABLED */
+.space-background::after {
+  display: none; /* Completely remove shooting star effect */
+}
+
+/* Optimized Single Card Layout - Ultra Compact Design */
+.single-card-optimized {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.5rem;
+  box-sizing: border-box;
+}
+
+.single-card-optimized .card-container {
+  width: 100%;
+  max-width: 26rem; /* Further reduced for guaranteed fit */
+  position: relative;
+  z-index: 10;
+}
+
+.single-card-optimized .glass-card {
+  padding: 1.2rem; /* More compact padding */
+  font-size: 0.85rem; /* Smaller text for better proportions */
+}
+
+/* Responsive adjustments for single cards */
+@media (max-height: 800px) {
+  .single-card-optimized .glass-card {
+    padding: 1rem;
+    font-size: 0.8rem;
+  }
+  .single-card-optimized .card-container {
+    max-width: 24rem;
+  }
+}
+
+@media (max-height: 700px) {
+  .single-card-optimized .glass-card {
+    padding: 0.9rem;
+    font-size: 0.75rem;
+  }
+  .single-card-optimized .card-container {
+    max-width: 22rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .single-card-optimized .card-container {
+    max-width: 90%;
+  }
+  .single-card-optimized .glass-card {
+    padding: 1rem;
+  }
+}
+
+/* Ultra-compact styling for elements within single cards */
+.single-card-optimized h1,
+.single-card-optimized h2,
+.single-card-optimized .h1,
+.single-card-optimized .h2 {
+  font-size: 1.4rem;
+  margin-bottom: 0.6rem;
+  line-height: 1.3;
+}
+
+.single-card-optimized h3,
+.single-card-optimized .h3 {
+  font-size: 1.1rem;
+  margin-bottom: 0.4rem;
+  line-height: 1.3;
+}
+
+.single-card-optimized .btn,
+.single-card-optimized button {
+  padding: 0.5rem 1rem;
+  font-size: 0.85rem;
+  line-height: 1.2;
+}
+
+.single-card-optimized .form-control,
+.single-card-optimized .form-control-cosmic {
+  padding: 0.6rem 0.8rem 0.6rem 2.8rem; /* Preserve left padding for icons */
+  font-size: 0.85rem;
+  line-height: 1.2;
+}
+
+/* Adjust cosmic input icons for compact layout */
+.single-card-optimized .cosmic-input-icon {
+  left: 12px !important;
+  width: 18px !important;
+  height: 18px !important;
+}
+
+/* ✨ PAYMENT SUCCESS PAGE OPTIMIZED LAYOUT */
+.payment-success-optimized {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 1rem;
+  box-sizing: border-box;
+}
+
+.payment-success-optimized .payment-success-container {
+  max-width: 28rem;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.payment-success-optimized .glass-card {
+  padding: 1.5rem;
+  font-size: 0.9rem;
+  margin-bottom: 0.5rem;
+}
+
+/* Responsive adjustments for payment success */
+@media (max-height: 900px) {
+  .payment-success-optimized .glass-card {
+    padding: 1.2rem;
+    font-size: 0.85rem;
+  }
+  .payment-success-optimized .payment-success-container {
+    max-width: 26rem;
+  }
+}
+
+@media (max-height: 800px) {
+  .payment-success-optimized .glass-card {
+    padding: 1rem;
+    font-size: 0.8rem;
+  }
+  .payment-success-optimized .payment-success-container {
+    max-width: 24rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .payment-success-optimized .payment-success-container {
+    max-width: 95%;
+  }
+  .payment-success-optimized .glass-card {
+    padding: 1.2rem;
+  }
+}
+
+.single-card-optimized .mb-1 {
+  margin-bottom: 0.3rem !important;
+}
+
+.single-card-optimized .mb-2 {
+  margin-bottom: 0.5rem !important;
+}
+
+.single-card-optimized .mb-3 {
+  margin-bottom: 0.6rem !important;
+}
+
+.single-card-optimized .mb-4 {
+  margin-bottom: 0.8rem !important;
+}
+
+.single-card-optimized .mb-5 {
+  margin-bottom: 1rem !important;
+}
+
+/* Compact cosmic icons */
+.single-card-optimized .cosmic-icon {
+  width: 50px !important;
+  height: 50px !important;
+}
+
+.single-card-optimized .cosmic-icon svg {
+  width: 28px !important;
+  height: 28px !important;
+}
+
+/* Compact form labels */
+.single-card-optimized .form-label {
+  font-size: 0.8rem;
+  margin-bottom: 0.3rem;
+}
+
+/* Compact links and text */
+.single-card-optimized .small {
+  font-size: 0.75rem !important;
+}
+
+.single-card-optimized p {
+  margin-bottom: 0.6rem;
+  line-height: 1.3;
+}
+
+@keyframes shooting-star {
+  0% {
+    background: radial-gradient(ellipse at -20% -20%, rgba(255,255,255,0.8) 0%, transparent 20%);
+  }
+  5% {
+    background: radial-gradient(ellipse at 20% 20%, rgba(255,255,255,0.6) 0%, transparent 20%);
+  }
+  10% {
+    background: radial-gradient(ellipse at 40% 40%, rgba(255,255,255,0.4) 0%, transparent 20%);
+  }
+  15% {
+    background: radial-gradient(ellipse at 60% 60%, rgba(255,255,255,0.3) 0%, transparent 20%);
+  }
+  20% {
+    background: radial-gradient(ellipse at 80% 80%, rgba(255,255,255,0.2) 0%, transparent 20%);
+  }
+  25% {
+    background: radial-gradient(ellipse at 100% 100%, rgba(255,255,255,0.1) 0%, transparent 20%);
+  }
+  26%, 100% {
+    background: transparent;
+  }
+}
+
+/* Remove duplicate cosmic-orb definition */
+
+.cosmic-orb-1 {
+  width: 80px;
+  height: 80px;
+  background: radial-gradient(circle, rgba(255,107,107,0.2) 0%, transparent 70%);
+  top: 15%;
+  left: 5%;
+  animation-delay: 0s;
+}
+
+.cosmic-orb-2 {
+  width: 120px;
+  height: 120px;
+  background: radial-gradient(circle, rgba(107,255,107,0.15) 0%, transparent 70%);
+  top: 60%;
+  right: 10%;
+  animation-delay: 3s;
+}
+
+.cosmic-orb-3 {
+  width: 60px;
+  height: 60px;
+  background: radial-gradient(circle, rgba(107,107,255,0.25) 0%, transparent 70%);
+  bottom: 25%;
+  left: 80%;
+  animation-delay: 6s;
+}
+
+.cosmic-orb-4 {
+  width: 100px;
+  height: 100px;
+  background: radial-gradient(circle, rgba(255,255,107,0.18) 0%, transparent 70%);
+  top: 30%;
+  left: 30%;
+  animation-delay: 9s;
+}
+
+@keyframes cosmic-float {
+  0%, 100% { 
+    transform: translateY(0px) translateX(0px) rotate(0deg); 
+    opacity: 0.3;
+  }
+  25% { 
+    transform: translateY(-30px) translateX(20px) rotate(90deg); 
+    opacity: 0.6;
+  }
+  50% { 
+    transform: translateY(-10px) translateX(-20px) rotate(180deg); 
+    opacity: 0.4;
+  }
+  75% { 
+    transform: translateY(20px) translateX(10px) rotate(270deg); 
+    opacity: 0.5;
+  }
+}
+
+/* Glass Card */
+.glass-card {
+  background: rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 20px;
+  box-shadow: 
+    0 8px 32px rgba(0, 0, 0, 0.3),
+    inset 0 1px 0 rgba(255, 255, 255, 0.2);
+}
+
+.glass-card:hover {
+  background: rgba(255, 255, 255, 0.12);
+  border-color: rgba(255, 255, 255, 0.3);
+  transform: translateY(-8px);
+  box-shadow: 
+    0 20px 40px rgba(0, 0, 0, 0.4),
+    inset 0 1px 0 rgba(255, 255, 255, 0.3);
+}
+
+.glass-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(135deg, rgba(255,255,255,0.1) 0%, transparent 50%, rgba(255,255,255,0.05) 100%);
+  border-radius: 24px;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  pointer-events: none;
+}
+
+.glass-card:hover::before {
+  opacity: 1;
+}
+
+/* Space Text Styles - Made bolder */
+.space-text {
+  color: rgba(255, 255, 255, 0.95);
+  font-weight: 700;
+  font-family: 'Orbitron', monospace;
+  text-shadow: 0 2px 8px rgba(0,0,0,0.5);
+}
+
+.space-text-muted {
+  color: rgba(255, 255, 255, 0.8);
+  font-weight: 600;
+  font-family: 'Exo 2', sans-serif;
+}
+
+.space-text-dim {
+  color: rgba(255, 255, 255, 0.6);
+  font-weight: 500;
+  font-family: 'Exo 2', sans-serif;
+}
+
+/* Cosmic Buttons */
+.btn-cosmic-primary {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  border-radius: 12px;
+  color: white;
+  padding: 12px 24px;
+  font-weight: 700;
+  font-family: 'Orbitron', monospace;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.btn-cosmic-primary:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 25px rgba(102, 126, 234, 0.4);
+  border-color: rgba(255, 255, 255, 0.4);
+}
+
+.btn-cosmic-secondary {
+  background: linear-gradient(135deg, #43e97b 0%, #38f9d7 100%);
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  border-radius: 12px;
+  color: #0c0c0c;
+  padding: 12px 24px;
+  font-weight: 700;
+  font-family: 'Orbitron', monospace;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.btn-cosmic-secondary:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 25px rgba(67, 233, 123, 0.4);
+  border-color: rgba(255, 255, 255, 0.4);
+  color: #0c0c0c;
+}
+
+.btn-cosmic-outline {
+  background: transparent;
+  border: 2px solid rgba(255, 255, 255, 0.3);
+  border-radius: 12px;
+  color: rgba(255, 255, 255, 0.9);
+  padding: 12px 24px;
+  font-weight: 600;
+  font-family: 'Exo 2', sans-serif;
+  transition: all 0.3s ease;
+}
+
+.btn-cosmic-outline:hover {
+  background: rgba(255, 255, 255, 0.1);
+  border-color: rgba(255, 255, 255, 0.5);
+  transform: translateY(-2px);
+  color: rgba(255, 255, 255, 1);
+}
+
+/* Cosmic Form Controls - Fixed centering and sizing */
+.form-control-cosmic {
+  background: rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(10px);
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  border-radius: 12px;
+  color: rgba(255, 255, 255, 0.9);
+  padding: 12px 16px 12px 48px;
+  font-weight: 600;
+  font-family: 'Exo 2', sans-serif;
+  width: 100%;
+  transition: all 0.3s ease;
+}
+
+.form-control-cosmic:focus {
+  background: rgba(255, 255, 255, 0.12);
+  border-color: rgba(255, 255, 255, 0.4);
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.2);
+  color: rgba(255, 255, 255, 1);
+  outline: none;
+}
+
+.form-control-cosmic::placeholder {
+  color: rgba(255, 255, 255, 0.6);
+  font-weight: 500;
+}
+
+/* Cosmic Icons */
+.cosmic-icon {
+  position: relative;
+  width: 80px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(255, 255, 255, 0.1);
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  border-radius: 50%;
+  backdrop-filter: blur(10px);
+}
+
+.cosmic-icon:hover {
+  background: rgba(255, 255, 255, 0.15);
+  border-color: rgba(255, 255, 255, 0.3);
+  transform: scale(1.1);
+}
+
+/* Cosmic Links */
+.cosmic-link {
+  color: rgba(255, 255, 255, 0.8);
+  text-decoration: none;
+  font-weight: 600;
+  font-family: 'Exo 2', sans-serif;
+  transition: all 0.3s ease;
+  background: linear-gradient(45deg, rgba(255, 255, 255, 0.8), rgba(138, 43, 226, 0.8));
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: 200% 200%;
+  animation: cosmic-link-glow 3s ease infinite;
+}
+
+.cosmic-link:hover {
+  transform: translateY(-2px);
+  filter: drop-shadow(0 4px 8px rgba(138, 43, 226, 0.4));
+}
+
+@keyframes cosmic-link-glow {
+  0%, 100% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+}
+
+.cosmic-link::after {
+  content: '';
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background: linear-gradient(90deg, rgba(255,255,255,0.8), rgba(255,255,255,0.3));
+  transition: width 0.3s ease;
+}
+
+.cosmic-link:hover::after {
+  width: 100%;
+}
+
+/* ===== END COSMIC SPACE THEME ===== */
+
+/* Custom utility classes */
+.bg-orange-50 { background-color: #fff7ed !important; }
+.bg-orange-100 { background-color: var(--bs-orange-light) !important; }
+.bg-orange-500 { background-color: var(--bs-orange) !important; }
+.bg-orange-600 { background-color: var(--bs-orange-dark) !important; }
+.text-orange-500 { color: var(--bs-orange) !important; }
+.text-orange-600 { color: var(--bs-orange-dark) !important; }
+.text-orange-700 { color: #c2410c !important; }
+.text-orange-800 { color: #9a3412 !important; }
+.border-orange-500 { border-color: var(--bs-orange) !important; }
+.border-orange-200 { border-color: #fed7aa !important; }
+
+.bg-green-50 { background-color: #f0fdf4 !important; }
+.bg-green-100 { background-color: var(--bs-green-light) !important; }
+.bg-green-500 { background-color: var(--bs-green) !important; }
+.bg-green-600 { background-color: var(--bs-green-dark) !important; }
+.text-green-500 { color: var(--bs-green) !important; }
+.text-green-600 { color: var(--bs-green-dark) !important; }
+.text-green-700 { color: #15803d !important; }
+.text-green-800 { color: #166534 !important; }
+.border-green-500 { border-color: var(--bs-green) !important; }
+.border-green-200 { border-color: #bbf7d0 !important; }
+
+.bg-red-50 { background-color: #fef2f2 !important; }
+.bg-red-100 { background-color: var(--bs-red-light) !important; }
+.bg-red-500 { background-color: var(--bs-red) !important; }
+.bg-red-600 { background-color: var(--bs-red-dark) !important; }
+.text-red-500 { color: var(--bs-red) !important; }
+.text-red-600 { color: var(--bs-red-dark) !important; }
+.text-red-700 { color: #b91c1c !important; }
+.text-red-800 { color: #991b1b !important; }
+.border-red-500 { border-color: var(--bs-red) !important; }
+.border-red-200 { border-color: #fecaca !important; }
+
+.bg-blue-50 { background-color: #eff6ff !important; }
+.bg-blue-100 { background-color: var(--bs-blue-light) !important; }
+.bg-blue-500 { color: var(--bs-blue) !important; }
+.text-blue-500 { color: var(--bs-blue) !important; }
+.text-blue-600 { color: var(--bs-blue-dark) !important; }
+.text-blue-700 { color: #1d4ed8 !important; }
+.text-blue-800 { color: #1e40af !important; }
+.border-blue-200 { border-color: #bfdbfe !important; }
+
+.bg-purple-50 { background-color: #faf5ff !important; }
+.bg-purple-100 { background-color: var(--bs-purple-light) !important; }
+.text-purple-500 { color: var(--bs-purple) !important; }
+.text-purple-600 { color: var(--bs-purple-dark) !important; }
+.text-purple-700 { color: #6d28d9 !important; }
+.text-purple-800 { color: #5b21b6 !important; }
+
+.bg-yellow-50 { background-color: #fefce8 !important; }
+.bg-yellow-100 { background-color: var(--bs-yellow-light) !important; }
+.text-yellow-400 { color: #facc15 !important; }
+.text-yellow-600 { color: var(--bs-yellow) !important; }
+.text-yellow-800 { color: var(--bs-yellow-dark) !important; }
+.border-yellow-200 { border-color: #fde68a !important; }
+
+.bg-gray-50 { background-color: #f9fafb !important; }
+.bg-gray-100 { background-color: #f3f4f6 !important; }
+.bg-gray-200 { background-color: #e5e7eb !important; }
+.bg-gray-300 { background-color: #d1d5db !important; }
+.text-gray-300 { color: #d1d5db !important; }
+.text-gray-400 { color: #9ca3af !important; }
+.text-gray-500 { color: #6b7280 !important; }
+.text-gray-600 { color: #4b5563 !important; }
+.text-gray-700 { color: #374151 !important; }
+.text-gray-800 { color: #1f2937 !important; }
+.text-gray-900 { color: #111827 !important; }
+.border-gray-200 { border-color: #e5e7eb !important; }
+.border-gray-300 { border-color: #d1d5db !important; }
+
+/* Custom component styles */
+.btn-orange {
+  background-color: #F97316;
+  border-color: #F97316;
+  color: #FFFFFF;
+}
+
+.btn-orange:hover {
+  background-color: #EA580C;
+  border-color: #EA580C;
+  color: #FFFFFF;
+}
+
+.btn-outline-orange {
+  border-color: #F97316;
+  color: #F97316;
+}
+
+.btn-outline-orange:hover {
+  background-color: #F97316;
+  border-color: #F97316;
+  color: #FFFFFF;
+}
+
+.btn-green {
+  background-color: #22C55E;
+  border-color: #22C55E;
+  color: #FFFFFF;
+}
+
+.btn-green:hover {
+  background-color: #16A34A;
+  border-color: #16A34A;
+  color: #FFFFFF;
+}
+
+.btn-outline-green {
+  border-color: #22C55E;
+  color: #22C55E;
+}
+
+.btn-outline-green:hover {
+  background-color: #22C55E;
+  border-color: #22C55E;
+  color: #FFFFFF;
+}
+
+.gradient-orange {
+  background: linear-gradient(135deg, #FED7AA 0%, #F97316 100%);
+}
+
+.gradient-green {
+  background: linear-gradient(135deg, #DCFCE7 0%, #22C55E 100%);
+}
+
+.shadow-custom {
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+
+.shadow-custom-lg {
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+}
+
+.shadow-custom-xl {
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+}
+
+.transition-all {
+  transition: all 0.3s;
+}
+
+.transform-scale {
+  transition: transform 0.2s;
+}
+
+.transform-scale:hover {
+  transform: scale(1.05);
+}
+
+.rounded-2xl {
+  border-radius: 1rem;
+}
+
+.rounded-xl {
+  border-radius: 0.75rem !important;
+}
+
+.min-h-screen {
+  min-height: 100vh;
+}
+
+.sticky-top-custom {
+  position: sticky;
+  top: 2rem;
+}
+
+.z-40 {
+  z-index: 40;
+}
+
+.z-50 {
+  z-index: 50;
+}
+
+.z-10 { z-index: 10; }
+
+/* Form controls */
+.form-control:focus {
+  border-color: var(--bs-orange);
+  box-shadow: 0 0 0 0.2rem rgba(249, 115, 22, 0.25);
+}
+
+.form-select:focus {
+  border-color: var(--bs-green);
+  box-shadow: 0 0 0 0.2rem rgba(34, 197, 94, 0.25);
+}
+
+/* Custom spacing */
+.space-y-1 > * + * { margin-top: 0.25rem; }
+.space-y-2 > * + * { margin-top: 0.5rem; }
+.space-y-3 > * + * { margin-top: 0.75rem; }
+.space-y-4 > * + * { margin-top: 1rem; }
+.space-y-6 > * + * { margin-top: 1.5rem; }
+.space-y-8 > * + * { margin-top: 2rem; }
+
+.space-x-2 > * + * { margin-left: 0.5rem; }
+.space-x-3 > * + * { margin-left: 0.75rem; }
+.space-x-4 > * + * { margin-left: 1rem; }
+.space-x-6 > * + * { margin-left: 1.5rem; }
+.space-x-8 > * + * { margin-left: 2rem; }
+
+/* Responsive utilities */
+@media (max-width: 768px) {
+  .grid-cols-2-md { 
+    display: grid; 
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 1rem; 
+  }
+  .grid-cols-3-md { 
+    display: grid; 
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 1rem; 
+  }
+}
+
+@media (min-width: 768px) {
+  .grid-cols-3-md { 
+    display: grid; 
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 1rem; 
+  }
+  .grid-cols-6-lg { 
+    display: grid; 
+    grid-template-columns: repeat(6, 1fr); 
+    gap: 1rem; 
+  }
+}
+
+@media (min-width: 992px) {
+  .grid-cols-2-lg { 
+    display: grid; 
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 2rem; 
+  }
+  .grid-cols-3-lg { 
+    display: grid; 
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 1.5rem; 
+  }
+}
+
+/* Fixed positioning */
+.fixed-bottom-center {
+  position: fixed;
+  bottom: 1rem;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 50;
+}
+
+/* Overflow utilities */
+.overflow-y-auto {
+  overflow-y: auto;
+}
+
+.max-h-96 {
+  max-height: 24rem;
+}
+
+/* Resize utilities */
+.resize-none {
+  resize: none;
+}
+
+/* Animations */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes pulse {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+}
+
+@keyframes slideInUp {
+  from {
+    opacity: 0;
+    transform: translateY(50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.fadeInUp {
+  animation: fadeInUp 0.6s ease-out;
+}
+
+.pulse {
+  animation: pulse 2s infinite;
+}
+
+.slideInUp {
+  animation: slideInUp 0.8s ease-out;
+}

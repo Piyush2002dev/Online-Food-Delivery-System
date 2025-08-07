@@ -1,0 +1,2 @@
+INSERT INTO orders (order_id, user_id, restaurant_id, status, total_amount, order_time, delivery_address)
+VALUES ('o1b2c3d4-...', 'u1b2c3d4-...', 'r1b2c3d4-...', 'PENDING', 25.98, NOW(), '123 Test St');

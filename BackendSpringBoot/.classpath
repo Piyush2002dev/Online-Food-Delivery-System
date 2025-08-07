@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="api-gateway/src/main/java"/>
+	<classpathentry kind="src" path="api-gateway/src/test/java"/>
+	<classpathentry kind="src" path="auth-service/src/main/java"/>
+	<classpathentry kind="src" path="auth-service/src/test/java"/>
+	<classpathentry kind="src" path="customer/src/main/java"/>
+	<classpathentry kind="src" path="customer/src/test/java"/>
+	<classpathentry kind="src" path="eurekaServer/src/main/java"/>
+	<classpathentry kind="src" path="eurekaServer/src/test/java"/>
+	<classpathentry kind="src" path="OFDS_DeliveryManagement/src/main/java"/>
+	<classpathentry kind="src" path="OFDS_DeliveryManagement/src/test/java"/>
+	<classpathentry kind="src" path="OFDS_MenuManagement/src/main/java"/>
+	<classpathentry kind="src" path="OFDS_MenuManagement/src/test/java"/>
+	<classpathentry kind="src" path="order-service/src/main/java"/>
+	<classpathentry kind="src" path="order-service/src/test/java"/>
+	<classpathentry kind="src" path="paymentmodule/src/main/java"/>
+	<classpathentry kind="src" path="paymentmodule/src/test/java"/>
+	<classpathentry kind="src" path="Restaurant/src/main/java"/>
+	<classpathentry kind="src" path="Restaurant/src/test/java"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

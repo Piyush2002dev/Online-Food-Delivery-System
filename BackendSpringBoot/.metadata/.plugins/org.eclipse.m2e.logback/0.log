@@ -1,0 +1,516 @@
+2025-08-07 14:12:42,275 [Worker-6: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is not available. Remote download required.
+2025-08-07 14:13:04,153 [Worker-14: Update Maven projects configuration] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2025-08-07 14:13:15,664 [Worker-14: Update Maven projects configuration] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.fooddelivery:order-service:0.0.1-SNAPSHOT @ C:\Users\2414296\OneDrive - Cognizant\Desktop\OFDS\OFDS\OFDS-main\order-service\pom.xml.
+2025-08-07 14:13:36,595 [Worker-14: Update Maven projects configuration] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /order-service/src/main/java
+2025-08-07 14:13:36,600 [Worker-14: Update Maven projects configuration] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /order-service/src/main/resources
+2025-08-07 14:13:36,745 [Worker-14: Update Maven projects configuration] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /order-service/src/main/resources
+2025-08-07 14:13:36,822 [Worker-14: Update Maven projects configuration] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /order-service/src/test/java
+2025-08-07 14:13:36,826 [Worker-14: Update Maven projects configuration] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /order-service/src/test/resources
+2025-08-07 14:13:47,398 [Worker-6: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.delivery:delivery-service:0.0.1-SNAPSHOT @ C:\Users\2414296\OneDrive - Cognizant\Desktop\OFDS\OFDS\OFDS-main\OFDS_DeliveryManagement\pom.xml.
+2025-08-07 14:14:01,669 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-07 14:14:01,700 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-07 14:14:01,706 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\2414296\OneDrive - Cognizant\Desktop\OFDS\OFDS\OFDS-main\OFDS_DeliveryManagement\src\test\resources
+2025-08-07 14:14:02,774 [Worker-14: Update Maven projects configuration] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 1 poms: local refresh takes 0.00 sec, refresh facades takes 30.00 sec, update config takes 27.00 sec 
+2025-08-07 14:14:02,788 [Worker-14: Update Maven projects configuration] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2025-08-07 14:14:15,242 [Worker-14: Update Maven projects configuration] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.ofds:eurekaserver:0.0.1-SNAPSHOT @ C:\Users\2414296\OneDrive - Cognizant\Desktop\OFDS\OFDS\OFDS-main\eurekaServer\pom.xml.
+2025-08-07 14:14:23,640 [Worker-14: Update Maven projects configuration] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example.customer:customer:0.0.1-SNAPSHOT @ C:\Users\2414296\OneDrive - Cognizant\Desktop\OFDS\OFDS\OFDS-main\customer\pom.xml.
+2025-08-07 14:14:36,703 [Worker-14: Update Maven projects configuration] WARN  o.e.m.c.i.embedder.EclipseLogger - The artifact org.hibernate:hibernate-validator:jar:8.0.1.Final has been relocated to org.hibernate.validator:hibernate-validator:jar:8.0.1.Final
+2025-08-07 14:14:38,094 [Worker-14: Update Maven projects configuration] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.fooddelivery:order-service:0.0.1-SNAPSHOT @ C:\Users\2414296\OneDrive - Cognizant\Desktop\OFDS\OFDS\OFDS-main\order-service\pom.xml.
+2025-08-07 14:14:42,438 [Worker-14: Update Maven projects configuration] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.ofds:auth-service:0.0.1-SNAPSHOT @ C:\Users\2414296\OneDrive - Cognizant\Desktop\OFDS\OFDS\OFDS-main\auth-service\pom.xml.
+2025-08-07 14:14:44,531 [Worker-14: Update Maven projects configuration] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.ofds:OFDSMenu:0.0.1-SNAPSHOT @ C:\Users\2414296\OneDrive - Cognizant\Desktop\OFDS\OFDS\OFDS-main\OFDS_MenuManagement\pom.xml.
+2025-08-07 14:15:03,015 [Worker-14: Update Maven projects configuration] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:demo:0.0.1-SNAPSHOT @ C:\Users\2414296\OneDrive - Cognizant\Desktop\OFDS\OFDS\OFDS-main\paymentmodule\pom.xml.
+2025-08-07 14:15:15,980 [Worker-14: Update Maven projects configuration] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.delivery:delivery-service:0.0.1-SNAPSHOT @ C:\Users\2414296\OneDrive - Cognizant\Desktop\OFDS\OFDS\OFDS-main\OFDS_DeliveryManagement\pom.xml.
+2025-08-07 14:15:18,531 [Worker-14: Update Maven projects configuration] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:Restaurant:0.0.1-SNAPSHOT @ C:\Users\2414296\OneDrive - Cognizant\Desktop\OFDS\OFDS\OFDS-main\Restaurant\pom.xml.
+2025-08-07 14:15:19,704 [Worker-14: Update Maven projects configuration] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.ofds:api-gateway:0.0.1-SNAPSHOT @ C:\Users\2414296\OneDrive - Cognizant\Desktop\OFDS\OFDS\OFDS-main\api-gateway\pom.xml.
+2025-08-07 14:16:17,136 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-07 14:16:17,177 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-08-07 14:16:17,397 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\2414296\OneDrive - Cognizant\Desktop\OFDS\OFDS\OFDS-main\OFDS_MenuManagement\src\test\resources
+2025-08-07 14:16:19,239 [Worker-14: Update Maven projects configuration] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /eurekaServer/src/main/java
+2025-08-07 14:16:19,241 [Worker-14: Update Maven projects configuration] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /eurekaServer/src/main/resources
+2025-08-07 14:16:19,262 [Worker-14: Update Maven projects configuration] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /eurekaServer/src/main/resources
+2025-08-07 14:16:19,292 [Worker-14: Update Maven projects configuration] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /eurekaServer/src/test/java
+2025-08-07 14:16:19,295 [Worker-14: Update Maven projects configuration] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /eurekaServer/src/test/resources
+2025-08-07 14:16:20,905 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-07 14:16:20,936 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-07 14:16:20,945 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\2414296\OneDrive - Cognizant\Desktop\OFDS\OFDS\OFDS-main\Restaurant\src\test\resources
+2025-08-07 14:16:21,452 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2025-08-07 14:16:21,505 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2025-08-07 14:16:21,514 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\2414296\OneDrive - Cognizant\Desktop\OFDS\OFDS\OFDS-main\api-gateway\src\test\resources
+2025-08-07 14:16:22,093 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-07 14:16:22,130 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-07 14:16:22,137 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\2414296\OneDrive - Cognizant\Desktop\OFDS\OFDS\OFDS-main\auth-service\src\test\resources
+2025-08-07 14:16:22,648 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-07 14:16:22,681 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-07 14:16:22,694 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\2414296\OneDrive - Cognizant\Desktop\OFDS\OFDS\OFDS-main\customer\src\test\resources
+2025-08-07 14:16:24,565 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-07 14:16:24,602 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-07 14:16:24,613 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\2414296\OneDrive - Cognizant\Desktop\OFDS\OFDS\OFDS-main\eurekaServer\src\test\resources
+2025-08-07 14:16:25,246 [Worker-14: Update Maven projects configuration] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /customer/src/main/java
+2025-08-07 14:16:25,250 [Worker-14: Update Maven projects configuration] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /customer/src/main/resources
+2025-08-07 14:16:26,630 [Worker-14: Update Maven projects configuration] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /customer/src/main/resources
+2025-08-07 14:16:26,669 [Worker-14: Update Maven projects configuration] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /customer/src/test/java
+2025-08-07 14:16:26,673 [Worker-14: Update Maven projects configuration] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /customer/src/test/resources
+2025-08-07 14:16:31,443 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-07 14:16:31,447 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-07 14:16:31,454 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\2414296\OneDrive - Cognizant\Desktop\OFDS\OFDS\OFDS-main\customer\src\test\resources
+2025-08-07 14:16:33,483 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-07 14:16:33,489 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-07 14:16:33,499 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\2414296\OneDrive - Cognizant\Desktop\OFDS\OFDS\OFDS-main\eurekaServer\src\test\resources
+2025-08-07 14:16:38,617 [Worker-14: Update Maven projects configuration] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /order-service/src/main/java
+2025-08-07 14:16:38,619 [Worker-14: Update Maven projects configuration] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /order-service/src/main/resources
+2025-08-07 14:16:38,620 [Worker-14: Update Maven projects configuration] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /order-service/src/main/resources
+2025-08-07 14:16:38,620 [Worker-14: Update Maven projects configuration] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /order-service/src/test/java
+2025-08-07 14:16:38,621 [Worker-14: Update Maven projects configuration] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /order-service/src/test/resources
+2025-08-07 14:16:42,531 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-07 14:16:42,549 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-07 14:16:42,561 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\2414296\OneDrive - Cognizant\Desktop\OFDS\OFDS\OFDS-main\customer\src\test\resources
+2025-08-07 14:16:46,447 [Worker-14: Update Maven projects configuration] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /auth-service/src/main/java
+2025-08-07 14:16:46,450 [Worker-14: Update Maven projects configuration] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /auth-service/src/main/resources
+2025-08-07 14:16:46,499 [Worker-14: Update Maven projects configuration] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /auth-service/src/main/resources
+2025-08-07 14:16:46,520 [Worker-14: Update Maven projects configuration] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /auth-service/src/test/java
+2025-08-07 14:16:46,522 [Worker-14: Update Maven projects configuration] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /auth-service/src/test/resources
+2025-08-07 14:16:48,386 [Worker-113: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-07 14:16:48,416 [Worker-113: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-07 14:16:48,427 [Worker-113: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\2414296\OneDrive - Cognizant\Desktop\OFDS\OFDS\OFDS-main\auth-service\src\test\resources
+2025-08-07 14:16:51,644 [Worker-113: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-07 14:16:51,700 [Worker-113: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources from src\main\resources to target\classes
+2025-08-07 14:16:51,795 [Worker-113: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\2414296\OneDrive - Cognizant\Desktop\OFDS\OFDS\OFDS-main\order-service\src\test\resources
+2025-08-07 14:16:53,558 [Worker-14: Update Maven projects configuration] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /OFDS_MenuManagement/src/main/java
+2025-08-07 14:16:53,561 [Worker-14: Update Maven projects configuration] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /OFDS_MenuManagement/src/main/resources
+2025-08-07 14:16:53,588 [Worker-14: Update Maven projects configuration] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /OFDS_MenuManagement/src/main/resources
+2025-08-07 14:16:53,615 [Worker-14: Update Maven projects configuration] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /OFDS_MenuManagement/src/test/java
+2025-08-07 14:16:53,616 [Worker-14: Update Maven projects configuration] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /OFDS_MenuManagement/src/test/resources
+2025-08-07 14:16:56,796 [Worker-107: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-07 14:16:56,810 [Worker-107: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-08-07 14:16:56,870 [Worker-107: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\2414296\OneDrive - Cognizant\Desktop\OFDS\OFDS\OFDS-main\OFDS_MenuManagement\src\test\resources
+2025-08-07 14:16:57,807 [Worker-107: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-07 14:16:57,811 [Worker-107: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-07 14:16:57,817 [Worker-107: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\2414296\OneDrive - Cognizant\Desktop\OFDS\OFDS\OFDS-main\auth-service\src\test\resources
+2025-08-07 14:16:59,079 [Worker-107: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-07 14:16:59,126 [Worker-107: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources from src\main\resources to target\classes
+2025-08-07 14:16:59,222 [Worker-107: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\2414296\OneDrive - Cognizant\Desktop\OFDS\OFDS\OFDS-main\paymentmodule\src\test\resources
+2025-08-07 14:17:00,515 [Worker-14: Update Maven projects configuration] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /paymentmodule/src/main/java
+2025-08-07 14:17:00,517 [Worker-14: Update Maven projects configuration] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /paymentmodule/src/main/resources
+2025-08-07 14:17:00,542 [Worker-14: Update Maven projects configuration] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /paymentmodule/src/main/resources
+2025-08-07 14:17:00,566 [Worker-14: Update Maven projects configuration] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /paymentmodule/src/test/java
+2025-08-07 14:17:00,567 [Worker-14: Update Maven projects configuration] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /paymentmodule/src/test/resources
+2025-08-07 14:17:03,505 [Worker-75: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-07 14:17:03,519 [Worker-75: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-08-07 14:17:03,553 [Worker-75: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\2414296\OneDrive - Cognizant\Desktop\OFDS\OFDS\OFDS-main\OFDS_MenuManagement\src\test\resources
+2025-08-07 14:17:05,026 [Worker-75: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-07 14:17:05,029 [Worker-75: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources from src\main\resources to target\classes
+2025-08-07 14:17:05,058 [Worker-75: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\2414296\OneDrive - Cognizant\Desktop\OFDS\OFDS\OFDS-main\paymentmodule\src\test\resources
+2025-08-07 14:17:07,769 [Worker-74: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-07 14:17:07,807 [Worker-74: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-07 14:17:07,813 [Worker-74: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\2414296\OneDrive - Cognizant\Desktop\OFDS\OFDS\OFDS-main\OFDS_DeliveryManagement\src\test\resources
+2025-08-07 14:17:08,713 [Worker-14: Update Maven projects configuration] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /OFDS_DeliveryManagement/src/main/java
+2025-08-07 14:17:08,715 [Worker-14: Update Maven projects configuration] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /OFDS_DeliveryManagement/src/main/resources
+2025-08-07 14:17:08,747 [Worker-14: Update Maven projects configuration] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /OFDS_DeliveryManagement/src/main/resources
+2025-08-07 14:17:08,774 [Worker-14: Update Maven projects configuration] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /OFDS_DeliveryManagement/src/test/java
+2025-08-07 14:17:08,777 [Worker-14: Update Maven projects configuration] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /OFDS_DeliveryManagement/src/test/resources
+2025-08-07 14:17:12,582 [Worker-100: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-07 14:17:12,601 [Worker-100: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-07 14:17:12,611 [Worker-100: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\2414296\OneDrive - Cognizant\Desktop\OFDS\OFDS\OFDS-main\OFDS_DeliveryManagement\src\test\resources
+2025-08-07 14:17:17,684 [Worker-100: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-07 14:17:17,701 [Worker-100: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources from src\main\resources to target\classes
+2025-08-07 14:17:17,823 [Worker-100: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\2414296\OneDrive - Cognizant\Desktop\OFDS\OFDS\OFDS-main\paymentmodule\src\test\resources
+2025-08-07 14:17:22,503 [Worker-14: Update Maven projects configuration] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Restaurant/src/main/java
+2025-08-07 14:17:22,506 [Worker-14: Update Maven projects configuration] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /Restaurant/src/main/resources
+2025-08-07 14:17:22,530 [Worker-14: Update Maven projects configuration] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /Restaurant/src/main/resources
+2025-08-07 14:17:22,564 [Worker-14: Update Maven projects configuration] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Restaurant/src/test/java
+2025-08-07 14:17:22,580 [Worker-14: Update Maven projects configuration] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /Restaurant/src/test/resources
+2025-08-07 14:17:25,720 [Worker-95: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-07 14:17:25,741 [Worker-95: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-07 14:17:25,749 [Worker-95: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\2414296\OneDrive - Cognizant\Desktop\OFDS\OFDS\OFDS-main\OFDS_DeliveryManagement\src\test\resources
+2025-08-07 14:17:27,875 [Worker-95: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-07 14:17:27,891 [Worker-95: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-07 14:17:27,906 [Worker-95: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\2414296\OneDrive - Cognizant\Desktop\OFDS\OFDS\OFDS-main\Restaurant\src\test\resources
+2025-08-07 14:17:30,531 [Worker-14: Update Maven projects configuration] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /api-gateway/src/main/java
+2025-08-07 14:17:30,531 [Worker-14: Update Maven projects configuration] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /api-gateway/src/main/resources
+2025-08-07 14:17:30,565 [Worker-14: Update Maven projects configuration] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /api-gateway/src/main/resources
+2025-08-07 14:17:30,597 [Worker-14: Update Maven projects configuration] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /api-gateway/src/test/java
+2025-08-07 14:17:30,597 [Worker-14: Update Maven projects configuration] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /api-gateway/src/test/resources
+2025-08-07 14:17:47,851 [Worker-112: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-07 14:17:47,851 [Worker-112: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-07 14:17:47,867 [Worker-112: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\2414296\OneDrive - Cognizant\Desktop\OFDS\OFDS\OFDS-main\Restaurant\src\test\resources
+2025-08-07 14:17:49,392 [Worker-112: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2025-08-07 14:17:49,423 [Worker-112: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2025-08-07 14:17:49,439 [Worker-112: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\2414296\OneDrive - Cognizant\Desktop\OFDS\OFDS\OFDS-main\api-gateway\src\test\resources
+2025-08-07 14:17:58,088 [Worker-14: Update Maven projects configuration] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 9 poms: local refresh takes 0.00 sec, refresh facades takes 132.00 sec, update config takes 102.00 sec 
+2025-08-07 14:17:59,154 [Worker-104: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2025-08-07 14:17:59,165 [Worker-104: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2025-08-07 14:17:59,172 [Worker-104: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\2414296\OneDrive - Cognizant\Desktop\OFDS\OFDS\OFDS-main\api-gateway\src\test\resources
+2025-08-07 14:20:02,097 [Worker-69: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-07 14:20:02,106 [Worker-69: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-08-07 14:20:02,146 [Worker-69: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\2414296\OneDrive - Cognizant\Desktop\OFDS\OFDS\OFDS-main\OFDS_MenuManagement\src\test\resources
+2025-08-07 14:20:15,064 [Worker-102: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-07 14:20:15,075 [Worker-102: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources from src\main\resources to target\classes
+2025-08-07 14:20:15,138 [Worker-102: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\2414296\OneDrive - Cognizant\Desktop\OFDS\OFDS\OFDS-main\order-service\src\test\resources
+2025-08-07 14:20:23,046 [Worker-69: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-07 14:20:23,067 [Worker-69: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources from src\main\resources to target\classes
+2025-08-07 14:20:23,114 [Worker-69: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\2414296\OneDrive - Cognizant\Desktop\OFDS\OFDS\OFDS-main\paymentmodule\src\test\resources
+2025-08-07 16:16:37,358 [Worker-129: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.delivery:delivery-service:0.0.1-SNAPSHOT @ C:\Users\2414296\OneDrive - Cognizant\Desktop\OFDS\OFDS\OFDS-main\OFDS_DeliveryManagement\pom.xml.
+2025-08-07 16:17:20,124 [Worker-129: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-07 16:17:20,228 [Worker-129: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-07 16:17:20,315 [Worker-129: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\2414296\OneDrive - Cognizant\Desktop\OFDS\OFDS\OFDS-main\OFDS_DeliveryManagement\src\test\resources
+2025-08-07 16:17:35,341 [Worker-129: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.ofds:OFDSMenu:0.0.1-SNAPSHOT @ C:\Users\2414296\OneDrive - Cognizant\Desktop\OFDS\OFDS\OFDS-main\OFDS_MenuManagement\pom.xml.
+2025-08-07 16:18:02,308 [Worker-129: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-07 16:18:02,431 [Worker-129: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-08-07 16:18:02,578 [Worker-129: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\2414296\OneDrive - Cognizant\Desktop\OFDS\OFDS\OFDS-main\OFDS_MenuManagement\src\test\resources
+2025-08-07 16:18:30,295 [Worker-129: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:Restaurant:0.0.1-SNAPSHOT @ C:\Users\2414296\OneDrive - Cognizant\Desktop\OFDS\OFDS\OFDS-main\Restaurant\pom.xml.
+2025-08-07 16:18:53,052 [Worker-129: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-07 16:18:53,079 [Worker-129: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-07 16:18:53,094 [Worker-129: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\2414296\OneDrive - Cognizant\Desktop\OFDS\OFDS\OFDS-main\Restaurant\src\test\resources
+2025-08-07 16:18:59,074 [Worker-129: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.ofds:api-gateway:0.0.1-SNAPSHOT @ C:\Users\2414296\OneDrive - Cognizant\Desktop\OFDS\OFDS\OFDS-main\api-gateway\pom.xml.
+2025-08-07 16:19:11,351 [Worker-129: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2025-08-07 16:19:11,431 [Worker-129: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2025-08-07 16:19:11,441 [Worker-129: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\2414296\OneDrive - Cognizant\Desktop\OFDS\OFDS\OFDS-main\api-gateway\src\test\resources
+2025-08-07 16:19:17,935 [Worker-129: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.ofds:auth-service:0.0.1-SNAPSHOT @ C:\Users\2414296\OneDrive - Cognizant\Desktop\OFDS\OFDS\OFDS-main\auth-service\pom.xml.
+2025-08-07 16:19:27,994 [Worker-129: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-07 16:19:28,016 [Worker-129: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-07 16:19:28,021 [Worker-129: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\2414296\OneDrive - Cognizant\Desktop\OFDS\OFDS\OFDS-main\auth-service\src\test\resources
+2025-08-07 16:19:28,581 [Worker-146: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2025-08-07 16:19:46,152 [Worker-146: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.ofds:api-gateway:0.0.1-SNAPSHOT @ C:\Users\2414296\OneDrive - Cognizant\Desktop\OFDS\OFDS\OFDS-main\api-gateway\pom.xml.
+2025-08-07 16:19:55,108 [Worker-146: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.ofds:auth-service:0.0.1-SNAPSHOT @ C:\Users\2414296\OneDrive - Cognizant\Desktop\OFDS\OFDS\OFDS-main\auth-service\pom.xml.
+2025-08-07 16:20:00,543 [Worker-146: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example.customer:customer:0.0.1-SNAPSHOT @ C:\Users\2414296\OneDrive - Cognizant\Desktop\OFDS\OFDS\OFDS-main\customer\pom.xml.
+2025-08-07 16:20:06,707 [Worker-146: Updating Maven Project] WARN  o.e.m.c.i.embedder.EclipseLogger - The artifact org.hibernate:hibernate-validator:jar:8.0.1.Final has been relocated to org.hibernate.validator:hibernate-validator:jar:8.0.1.Final
+2025-08-07 16:20:07,977 [Worker-146: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.ofds:eurekaserver:0.0.1-SNAPSHOT @ C:\Users\2414296\OneDrive - Cognizant\Desktop\OFDS\OFDS\OFDS-main\eurekaServer\pom.xml.
+2025-08-07 16:20:11,837 [Worker-146: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.delivery:delivery-service:0.0.1-SNAPSHOT @ C:\Users\2414296\OneDrive - Cognizant\Desktop\OFDS\OFDS\OFDS-main\OFDS_DeliveryManagement\pom.xml.
+2025-08-07 16:20:18,801 [Worker-146: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.ofds:OFDSMenu:0.0.1-SNAPSHOT @ C:\Users\2414296\OneDrive - Cognizant\Desktop\OFDS\OFDS\OFDS-main\OFDS_MenuManagement\pom.xml.
+2025-08-07 16:20:23,146 [Worker-146: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.fooddelivery:order-service:0.0.1-SNAPSHOT @ C:\Users\2414296\OneDrive - Cognizant\Desktop\OFDS\OFDS\OFDS-main\order-service\pom.xml.
+2025-08-07 16:20:26,740 [Worker-146: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:demo:0.0.1-SNAPSHOT @ C:\Users\2414296\OneDrive - Cognizant\Desktop\OFDS\OFDS\OFDS-main\paymentmodule\pom.xml.
+2025-08-07 16:20:31,687 [Worker-146: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:Restaurant:0.0.1-SNAPSHOT @ C:\Users\2414296\OneDrive - Cognizant\Desktop\OFDS\OFDS\OFDS-main\Restaurant\pom.xml.
+2025-08-07 16:21:08,315 [Worker-146: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /api-gateway/src/main/java
+2025-08-07 16:21:08,317 [Worker-146: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /api-gateway/src/main/resources
+2025-08-07 16:21:08,320 [Worker-146: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /api-gateway/src/main/resources
+2025-08-07 16:21:08,321 [Worker-146: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /api-gateway/src/test/java
+2025-08-07 16:21:08,322 [Worker-146: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /api-gateway/src/test/resources
+2025-08-07 16:21:11,929 [Worker-146: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /auth-service/src/main/java
+2025-08-07 16:21:11,955 [Worker-146: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /auth-service/src/main/resources
+2025-08-07 16:21:11,955 [Worker-146: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /auth-service/src/main/resources
+2025-08-07 16:21:11,955 [Worker-146: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /auth-service/src/test/java
+2025-08-07 16:21:11,955 [Worker-146: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /auth-service/src/test/resources
+2025-08-07 16:21:19,269 [Worker-146: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /customer/src/main/java
+2025-08-07 16:21:19,334 [Worker-146: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /customer/src/main/resources
+2025-08-07 16:21:19,334 [Worker-146: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /customer/src/main/resources
+2025-08-07 16:21:19,751 [Worker-146: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /customer/src/test/java
+2025-08-07 16:21:19,751 [Worker-146: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /customer/src/test/resources
+2025-08-07 16:21:25,088 [Worker-146: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /eurekaServer/src/main/java
+2025-08-07 16:21:25,088 [Worker-146: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /eurekaServer/src/main/resources
+2025-08-07 16:21:25,088 [Worker-146: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /eurekaServer/src/main/resources
+2025-08-07 16:21:25,088 [Worker-146: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /eurekaServer/src/test/java
+2025-08-07 16:21:25,088 [Worker-146: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /eurekaServer/src/test/resources
+2025-08-07 16:21:28,941 [Worker-146: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /OFDS_DeliveryManagement/src/main/java
+2025-08-07 16:21:28,942 [Worker-146: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /OFDS_DeliveryManagement/src/main/resources
+2025-08-07 16:21:28,944 [Worker-146: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /OFDS_DeliveryManagement/src/main/resources
+2025-08-07 16:21:28,945 [Worker-146: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /OFDS_DeliveryManagement/src/test/java
+2025-08-07 16:21:28,948 [Worker-146: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /OFDS_DeliveryManagement/src/test/resources
+2025-08-07 16:21:48,274 [Worker-146: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /OFDS_MenuManagement/src/main/java
+2025-08-07 16:21:48,278 [Worker-146: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /OFDS_MenuManagement/src/main/resources
+2025-08-07 16:21:48,281 [Worker-146: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /OFDS_MenuManagement/src/main/resources
+2025-08-07 16:21:48,282 [Worker-146: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /OFDS_MenuManagement/src/test/java
+2025-08-07 16:21:48,286 [Worker-146: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /OFDS_MenuManagement/src/test/resources
+2025-08-07 16:21:58,690 [Worker-146: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /order-service/src/main/java
+2025-08-07 16:21:58,705 [Worker-146: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /order-service/src/main/resources
+2025-08-07 16:21:58,705 [Worker-146: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /order-service/src/main/resources
+2025-08-07 16:21:58,705 [Worker-146: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /order-service/src/test/java
+2025-08-07 16:21:58,721 [Worker-146: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /order-service/src/test/resources
+2025-08-07 16:22:05,664 [Worker-146: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /paymentmodule/src/main/java
+2025-08-07 16:22:05,667 [Worker-146: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /paymentmodule/src/main/resources
+2025-08-07 16:22:05,670 [Worker-146: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /paymentmodule/src/main/resources
+2025-08-07 16:22:05,671 [Worker-146: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /paymentmodule/src/test/java
+2025-08-07 16:22:05,673 [Worker-146: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /paymentmodule/src/test/resources
+2025-08-07 16:22:13,519 [Worker-146: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Restaurant/src/main/java
+2025-08-07 16:22:13,519 [Worker-146: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /Restaurant/src/main/resources
+2025-08-07 16:22:13,519 [Worker-146: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /Restaurant/src/main/resources
+2025-08-07 16:22:13,535 [Worker-146: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Restaurant/src/test/java
+2025-08-07 16:22:13,535 [Worker-146: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /Restaurant/src/test/resources
+2025-08-07 16:22:42,608 [Worker-146: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 9 poms: local refresh takes 7.00 sec, refresh facades takes 91.00 sec, update config takes 69.00 sec 
+2025-08-07 16:22:44,475 [Worker-286: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-07 16:22:44,518 [Worker-286: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-07 16:22:44,522 [Worker-286: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\2414296\OneDrive - Cognizant\Desktop\OFDS\OFDS\OFDS-main\OFDS_DeliveryManagement\src\test\resources
+2025-08-07 16:22:45,113 [Worker-286: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-07 16:22:45,158 [Worker-286: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-08-07 16:22:45,209 [Worker-286: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\2414296\OneDrive - Cognizant\Desktop\OFDS\OFDS\OFDS-main\OFDS_MenuManagement\src\test\resources
+2025-08-07 16:22:48,341 [Worker-286: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-07 16:22:48,385 [Worker-286: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-07 16:22:48,391 [Worker-286: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\2414296\OneDrive - Cognizant\Desktop\OFDS\OFDS\OFDS-main\Restaurant\src\test\resources
+2025-08-07 16:22:51,272 [Worker-286: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2025-08-07 16:22:51,298 [Worker-286: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2025-08-07 16:22:51,302 [Worker-286: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\2414296\OneDrive - Cognizant\Desktop\OFDS\OFDS\OFDS-main\api-gateway\src\test\resources
+2025-08-07 16:22:52,786 [Worker-286: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-07 16:22:52,822 [Worker-286: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-07 16:22:52,837 [Worker-286: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\2414296\OneDrive - Cognizant\Desktop\OFDS\OFDS\OFDS-main\auth-service\src\test\resources
+2025-08-07 16:22:55,910 [Worker-286: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-07 16:22:55,939 [Worker-286: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-07 16:22:55,943 [Worker-286: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\2414296\OneDrive - Cognizant\Desktop\OFDS\OFDS\OFDS-main\customer\src\test\resources
+2025-08-07 16:22:59,140 [Worker-286: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-07 16:22:59,174 [Worker-286: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-07 16:22:59,180 [Worker-286: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\2414296\OneDrive - Cognizant\Desktop\OFDS\OFDS\OFDS-main\eurekaServer\src\test\resources
+2025-08-07 16:23:03,399 [Worker-286: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-07 16:23:03,428 [Worker-286: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources from src\main\resources to target\classes
+2025-08-07 16:23:03,509 [Worker-286: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\2414296\OneDrive - Cognizant\Desktop\OFDS\OFDS\OFDS-main\order-service\src\test\resources
+2025-08-07 16:23:06,692 [Worker-286: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-07 16:23:06,718 [Worker-286: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources from src\main\resources to target\classes
+2025-08-07 16:23:06,787 [Worker-286: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\2414296\OneDrive - Cognizant\Desktop\OFDS\OFDS\OFDS-main\paymentmodule\src\test\resources
+2025-08-07 16:24:28,659 [Worker-127: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-07 16:24:28,690 [Worker-127: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources from src\main\resources to target\classes
+2025-08-07 16:24:28,738 [Worker-127: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\2414296\OneDrive - Cognizant\Desktop\OFDS\OFDS\OFDS-main\order-service\src\test\resources
+2025-08-07 16:25:21,544 [Worker-277: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2025-08-07 16:25:49,091 [Worker-277: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.ofds:api-gateway:0.0.1-SNAPSHOT @ C:\Users\2414296\OneDrive - Cognizant\Desktop\OFDS\OFDS\OFDS-main\api-gateway\pom.xml.
+2025-08-07 16:26:12,305 [Worker-277: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.ofds:auth-service:0.0.1-SNAPSHOT @ C:\Users\2414296\OneDrive - Cognizant\Desktop\OFDS\OFDS\OFDS-main\auth-service\pom.xml.
+2025-08-07 16:26:30,360 [Worker-277: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example.customer:customer:0.0.1-SNAPSHOT @ C:\Users\2414296\OneDrive - Cognizant\Desktop\OFDS\OFDS\OFDS-main\customer\pom.xml.
+2025-08-07 16:26:53,137 [Worker-277: Updating Maven Project] WARN  o.e.m.c.i.embedder.EclipseLogger - The artifact org.hibernate:hibernate-validator:jar:8.0.1.Final has been relocated to org.hibernate.validator:hibernate-validator:jar:8.0.1.Final
+2025-08-07 16:27:01,887 [Worker-277: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.ofds:eurekaserver:0.0.1-SNAPSHOT @ C:\Users\2414296\OneDrive - Cognizant\Desktop\OFDS\OFDS\OFDS-main\eurekaServer\pom.xml.
+2025-08-07 16:27:10,319 [Worker-277: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.delivery:delivery-service:0.0.1-SNAPSHOT @ C:\Users\2414296\OneDrive - Cognizant\Desktop\OFDS\OFDS\OFDS-main\OFDS_DeliveryManagement\pom.xml.
+2025-08-07 16:27:13,889 [Worker-277: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.ofds:OFDSMenu:0.0.1-SNAPSHOT @ C:\Users\2414296\OneDrive - Cognizant\Desktop\OFDS\OFDS\OFDS-main\OFDS_MenuManagement\pom.xml.
+2025-08-07 16:27:15,788 [Worker-277: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.fooddelivery:order-service:0.0.1-SNAPSHOT @ C:\Users\2414296\OneDrive - Cognizant\Desktop\OFDS\OFDS\OFDS-main\order-service\pom.xml.
+2025-08-07 16:27:17,035 [Worker-277: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:demo:0.0.1-SNAPSHOT @ C:\Users\2414296\OneDrive - Cognizant\Desktop\OFDS\OFDS\OFDS-main\paymentmodule\pom.xml.
+2025-08-07 16:27:22,734 [Worker-277: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:Restaurant:0.0.1-SNAPSHOT @ C:\Users\2414296\OneDrive - Cognizant\Desktop\OFDS\OFDS\OFDS-main\Restaurant\pom.xml.
+2025-08-07 16:28:07,138 [Worker-277: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /api-gateway/src/main/java
+2025-08-07 16:28:07,140 [Worker-277: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /api-gateway/src/main/resources
+2025-08-07 16:28:07,140 [Worker-277: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /api-gateway/src/main/resources
+2025-08-07 16:28:07,141 [Worker-277: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /api-gateway/src/test/java
+2025-08-07 16:28:07,141 [Worker-277: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /api-gateway/src/test/resources
+2025-08-07 16:28:12,102 [Worker-277: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /auth-service/src/main/java
+2025-08-07 16:28:12,123 [Worker-277: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /auth-service/src/main/resources
+2025-08-07 16:28:12,127 [Worker-277: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /auth-service/src/main/resources
+2025-08-07 16:28:12,128 [Worker-277: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /auth-service/src/test/java
+2025-08-07 16:28:12,132 [Worker-277: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /auth-service/src/test/resources
+2025-08-07 16:28:17,140 [Worker-277: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /customer/src/main/java
+2025-08-07 16:28:17,143 [Worker-277: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /customer/src/main/resources
+2025-08-07 16:28:17,145 [Worker-277: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /customer/src/main/resources
+2025-08-07 16:28:17,145 [Worker-277: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /customer/src/test/java
+2025-08-07 16:28:17,147 [Worker-277: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /customer/src/test/resources
+2025-08-07 16:28:23,265 [Worker-277: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /eurekaServer/src/main/java
+2025-08-07 16:28:23,281 [Worker-277: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /eurekaServer/src/main/resources
+2025-08-07 16:28:23,282 [Worker-277: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /eurekaServer/src/main/resources
+2025-08-07 16:28:23,283 [Worker-277: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /eurekaServer/src/test/java
+2025-08-07 16:28:23,286 [Worker-277: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /eurekaServer/src/test/resources
+2025-08-07 16:28:30,523 [Worker-277: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /OFDS_DeliveryManagement/src/main/java
+2025-08-07 16:28:30,530 [Worker-277: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /OFDS_DeliveryManagement/src/main/resources
+2025-08-07 16:28:30,532 [Worker-277: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /OFDS_DeliveryManagement/src/main/resources
+2025-08-07 16:28:30,533 [Worker-277: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /OFDS_DeliveryManagement/src/test/java
+2025-08-07 16:28:30,534 [Worker-277: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /OFDS_DeliveryManagement/src/test/resources
+2025-08-07 16:28:34,550 [Worker-277: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /OFDS_MenuManagement/src/main/java
+2025-08-07 16:28:34,552 [Worker-277: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /OFDS_MenuManagement/src/main/resources
+2025-08-07 16:28:34,553 [Worker-277: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /OFDS_MenuManagement/src/main/resources
+2025-08-07 16:28:34,553 [Worker-277: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /OFDS_MenuManagement/src/test/java
+2025-08-07 16:28:34,554 [Worker-277: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /OFDS_MenuManagement/src/test/resources
+2025-08-07 16:28:37,837 [Worker-277: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /order-service/src/main/java
+2025-08-07 16:28:37,840 [Worker-277: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /order-service/src/main/resources
+2025-08-07 16:28:37,842 [Worker-277: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /order-service/src/main/resources
+2025-08-07 16:28:37,843 [Worker-277: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /order-service/src/test/java
+2025-08-07 16:28:37,846 [Worker-277: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /order-service/src/test/resources
+2025-08-07 16:28:46,764 [Worker-277: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /paymentmodule/src/main/java
+2025-08-07 16:28:47,155 [Worker-277: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /paymentmodule/src/main/resources
+2025-08-07 16:28:47,157 [Worker-277: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /paymentmodule/src/main/resources
+2025-08-07 16:28:47,158 [Worker-277: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /paymentmodule/src/test/java
+2025-08-07 16:28:47,160 [Worker-277: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /paymentmodule/src/test/resources
+2025-08-07 16:28:55,584 [Worker-277: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Restaurant/src/main/java
+2025-08-07 16:28:55,586 [Worker-277: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /Restaurant/src/main/resources
+2025-08-07 16:28:55,588 [Worker-277: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /Restaurant/src/main/resources
+2025-08-07 16:28:55,588 [Worker-277: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Restaurant/src/test/java
+2025-08-07 16:28:55,589 [Worker-277: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /Restaurant/src/test/resources
+2025-08-07 16:29:13,631 [Worker-277: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 9 poms: local refresh takes 7.00 sec, refresh facades takes 157.00 sec, update config takes 51.00 sec 
+2025-08-07 16:29:21,854 [Worker-133: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-07 16:29:22,004 [Worker-133: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-07 16:29:22,418 [Worker-133: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\2414296\OneDrive - Cognizant\Desktop\OFDS\OFDS\OFDS-main\OFDS_DeliveryManagement\src\test\resources
+2025-08-07 16:29:36,532 [Worker-133: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-07 16:29:36,611 [Worker-133: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-08-07 16:29:36,658 [Worker-133: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\2414296\OneDrive - Cognizant\Desktop\OFDS\OFDS\OFDS-main\OFDS_MenuManagement\src\test\resources
+2025-08-07 16:29:42,236 [Worker-133: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-07 16:29:42,282 [Worker-133: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-07 16:29:42,291 [Worker-133: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\2414296\OneDrive - Cognizant\Desktop\OFDS\OFDS\OFDS-main\Restaurant\src\test\resources
+2025-08-07 16:29:44,881 [Worker-133: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2025-08-07 16:29:45,000 [Worker-133: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2025-08-07 16:29:45,025 [Worker-133: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\2414296\OneDrive - Cognizant\Desktop\OFDS\OFDS\OFDS-main\api-gateway\src\test\resources
+2025-08-07 16:29:47,664 [Worker-133: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-07 16:29:47,719 [Worker-133: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-07 16:29:47,729 [Worker-133: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\2414296\OneDrive - Cognizant\Desktop\OFDS\OFDS\OFDS-main\auth-service\src\test\resources
+2025-08-07 16:29:52,650 [Worker-133: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-07 16:29:52,709 [Worker-133: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-07 16:29:52,717 [Worker-133: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\2414296\OneDrive - Cognizant\Desktop\OFDS\OFDS\OFDS-main\customer\src\test\resources
+2025-08-07 16:29:56,092 [Worker-133: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-07 16:29:56,167 [Worker-133: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-07 16:29:56,177 [Worker-133: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\2414296\OneDrive - Cognizant\Desktop\OFDS\OFDS\OFDS-main\eurekaServer\src\test\resources
+2025-08-07 16:30:02,370 [Worker-86: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-07 16:30:02,427 [Worker-86: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources from src\main\resources to target\classes
+2025-08-07 16:30:02,489 [Worker-86: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\2414296\OneDrive - Cognizant\Desktop\OFDS\OFDS\OFDS-main\order-service\src\test\resources
+2025-08-07 16:30:04,935 [Worker-86: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-07 16:30:05,057 [Worker-86: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources from src\main\resources to target\classes
+2025-08-07 16:30:05,112 [Worker-86: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\2414296\OneDrive - Cognizant\Desktop\OFDS\OFDS\OFDS-main\paymentmodule\src\test\resources
+2025-08-07 16:32:23,016 [Worker-86: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-07 16:32:23,042 [Worker-86: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources from src\main\resources to target\classes
+2025-08-07 16:32:23,462 [Worker-86: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\2414296\OneDrive - Cognizant\Desktop\OFDS\OFDS\OFDS-main\order-service\src\test\resources
+2025-08-07 16:32:49,859 [Worker-99: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-07 16:32:49,889 [Worker-99: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources from src\main\resources to target\classes
+2025-08-07 16:32:49,946 [Worker-99: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\2414296\OneDrive - Cognizant\Desktop\OFDS\OFDS\OFDS-main\order-service\src\test\resources
+2025-08-07 16:33:55,083 [Worker-174: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2025-08-07 16:34:25,832 [Worker-174: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.ofds:api-gateway:0.0.1-SNAPSHOT @ C:\Users\2414296\OneDrive - Cognizant\Desktop\OFDS\OFDS\OFDS-main\api-gateway\pom.xml.
+2025-08-07 16:34:54,945 [Worker-174: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.ofds:auth-service:0.0.1-SNAPSHOT @ C:\Users\2414296\OneDrive - Cognizant\Desktop\OFDS\OFDS\OFDS-main\auth-service\pom.xml.
+2025-08-07 16:36:00,586 [Worker-174: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example.customer:customer:0.0.1-SNAPSHOT @ C:\Users\2414296\OneDrive - Cognizant\Desktop\OFDS\OFDS\OFDS-main\customer\pom.xml.
+2025-08-07 16:36:34,163 [Worker-174: Updating Maven Project] WARN  o.e.m.c.i.embedder.EclipseLogger - The artifact org.hibernate:hibernate-validator:jar:8.0.1.Final has been relocated to org.hibernate.validator:hibernate-validator:jar:8.0.1.Final
+2025-08-07 16:37:21,544 [Worker-174: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.ofds:eurekaserver:0.0.1-SNAPSHOT @ C:\Users\2414296\OneDrive - Cognizant\Desktop\OFDS\OFDS\OFDS-main\eurekaServer\pom.xml.
+2025-08-07 16:37:25,227 [Worker-174: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.delivery:delivery-service:0.0.1-SNAPSHOT @ C:\Users\2414296\OneDrive - Cognizant\Desktop\OFDS\OFDS\OFDS-main\OFDS_DeliveryManagement\pom.xml.
+2025-08-07 16:37:33,609 [Worker-174: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.ofds:OFDSMenu:0.0.1-SNAPSHOT @ C:\Users\2414296\OneDrive - Cognizant\Desktop\OFDS\OFDS\OFDS-main\OFDS_MenuManagement\pom.xml.
+2025-08-07 16:37:42,012 [Worker-174: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.fooddelivery:order-service:0.0.1-SNAPSHOT @ C:\Users\2414296\OneDrive - Cognizant\Desktop\OFDS\OFDS\OFDS-main\order-service\pom.xml.
+2025-08-07 16:37:49,025 [Worker-174: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:demo:0.0.1-SNAPSHOT @ C:\Users\2414296\OneDrive - Cognizant\Desktop\OFDS\OFDS\OFDS-main\paymentmodule\pom.xml.
+2025-08-07 16:38:10,712 [Worker-174: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:Restaurant:0.0.1-SNAPSHOT @ C:\Users\2414296\OneDrive - Cognizant\Desktop\OFDS\OFDS\OFDS-main\Restaurant\pom.xml.
+2025-08-07 16:38:51,708 [Worker-174: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /api-gateway/src/main/java
+2025-08-07 16:38:51,732 [Worker-174: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /api-gateway/src/main/resources
+2025-08-07 16:38:51,733 [Worker-174: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /api-gateway/src/main/resources
+2025-08-07 16:38:51,734 [Worker-174: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /api-gateway/src/test/java
+2025-08-07 16:38:51,734 [Worker-174: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /api-gateway/src/test/resources
+2025-08-07 16:38:56,659 [Worker-174: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /auth-service/src/main/java
+2025-08-07 16:38:56,660 [Worker-174: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /auth-service/src/main/resources
+2025-08-07 16:38:56,661 [Worker-174: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /auth-service/src/main/resources
+2025-08-07 16:38:56,661 [Worker-174: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /auth-service/src/test/java
+2025-08-07 16:38:56,663 [Worker-174: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /auth-service/src/test/resources
+2025-08-07 16:39:05,775 [Worker-174: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /customer/src/main/java
+2025-08-07 16:39:05,797 [Worker-174: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /customer/src/main/resources
+2025-08-07 16:39:05,798 [Worker-174: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /customer/src/main/resources
+2025-08-07 16:39:05,798 [Worker-174: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /customer/src/test/java
+2025-08-07 16:39:05,799 [Worker-174: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /customer/src/test/resources
+2025-08-07 16:39:19,355 [Worker-174: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /eurekaServer/src/main/java
+2025-08-07 16:39:19,367 [Worker-174: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /eurekaServer/src/main/resources
+2025-08-07 16:39:19,368 [Worker-174: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /eurekaServer/src/main/resources
+2025-08-07 16:39:19,368 [Worker-174: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /eurekaServer/src/test/java
+2025-08-07 16:39:19,369 [Worker-174: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /eurekaServer/src/test/resources
+2025-08-07 16:39:30,546 [Worker-174: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /OFDS_DeliveryManagement/src/main/java
+2025-08-07 16:39:30,558 [Worker-174: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /OFDS_DeliveryManagement/src/main/resources
+2025-08-07 16:39:30,560 [Worker-174: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /OFDS_DeliveryManagement/src/main/resources
+2025-08-07 16:39:30,561 [Worker-174: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /OFDS_DeliveryManagement/src/test/java
+2025-08-07 16:39:30,563 [Worker-174: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /OFDS_DeliveryManagement/src/test/resources
+2025-08-07 16:39:37,837 [Worker-174: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /OFDS_MenuManagement/src/main/java
+2025-08-07 16:39:37,846 [Worker-174: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /OFDS_MenuManagement/src/main/resources
+2025-08-07 16:39:37,848 [Worker-174: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /OFDS_MenuManagement/src/main/resources
+2025-08-07 16:39:37,849 [Worker-174: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /OFDS_MenuManagement/src/test/java
+2025-08-07 16:39:37,851 [Worker-174: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /OFDS_MenuManagement/src/test/resources
+2025-08-07 16:39:45,054 [Worker-174: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /order-service/src/main/java
+2025-08-07 16:39:45,055 [Worker-174: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /order-service/src/main/resources
+2025-08-07 16:39:45,056 [Worker-174: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /order-service/src/main/resources
+2025-08-07 16:39:45,057 [Worker-174: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /order-service/src/test/java
+2025-08-07 16:39:45,058 [Worker-174: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /order-service/src/test/resources
+2025-08-07 16:39:53,292 [Worker-174: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /paymentmodule/src/main/java
+2025-08-07 16:39:53,297 [Worker-174: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /paymentmodule/src/main/resources
+2025-08-07 16:39:53,300 [Worker-174: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /paymentmodule/src/main/resources
+2025-08-07 16:39:53,302 [Worker-174: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /paymentmodule/src/test/java
+2025-08-07 16:39:53,306 [Worker-174: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /paymentmodule/src/test/resources
+2025-08-07 16:39:59,763 [Worker-174: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Restaurant/src/main/java
+2025-08-07 16:39:59,765 [Worker-174: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /Restaurant/src/main/resources
+2025-08-07 16:39:59,767 [Worker-174: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /Restaurant/src/main/resources
+2025-08-07 16:39:59,767 [Worker-174: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Restaurant/src/test/java
+2025-08-07 16:39:59,769 [Worker-174: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /Restaurant/src/test/resources
+2025-08-07 16:40:20,892 [Worker-174: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 9 poms: local refresh takes 6.00 sec, refresh facades takes 289.00 sec, update config takes 76.00 sec 
+2025-08-07 16:40:23,762 [Worker-145: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-07 16:40:23,825 [Worker-145: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-07 16:40:23,837 [Worker-145: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\2414296\OneDrive - Cognizant\Desktop\OFDS\OFDS\OFDS-main\OFDS_DeliveryManagement\src\test\resources
+2025-08-07 16:40:24,966 [Worker-145: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-07 16:40:25,016 [Worker-145: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-08-07 16:40:25,089 [Worker-145: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\2414296\OneDrive - Cognizant\Desktop\OFDS\OFDS\OFDS-main\OFDS_MenuManagement\src\test\resources
+2025-08-07 16:40:28,954 [Worker-145: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-07 16:40:28,996 [Worker-145: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-07 16:40:29,007 [Worker-145: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\2414296\OneDrive - Cognizant\Desktop\OFDS\OFDS\OFDS-main\Restaurant\src\test\resources
+2025-08-07 16:40:30,851 [Worker-145: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2025-08-07 16:40:30,877 [Worker-145: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2025-08-07 16:40:30,883 [Worker-145: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\2414296\OneDrive - Cognizant\Desktop\OFDS\OFDS\OFDS-main\api-gateway\src\test\resources
+2025-08-07 16:40:32,302 [Worker-145: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-07 16:40:32,334 [Worker-145: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-07 16:40:32,343 [Worker-145: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\2414296\OneDrive - Cognizant\Desktop\OFDS\OFDS\OFDS-main\auth-service\src\test\resources
+2025-08-07 16:40:34,719 [Worker-145: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-07 16:40:34,750 [Worker-145: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-07 16:40:34,759 [Worker-145: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\2414296\OneDrive - Cognizant\Desktop\OFDS\OFDS\OFDS-main\customer\src\test\resources
+2025-08-07 16:40:36,401 [Worker-145: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-07 16:40:36,436 [Worker-145: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-07 16:40:36,444 [Worker-145: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\2414296\OneDrive - Cognizant\Desktop\OFDS\OFDS\OFDS-main\eurekaServer\src\test\resources
+2025-08-07 16:40:37,978 [Worker-145: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-07 16:40:38,016 [Worker-145: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources from src\main\resources to target\classes
+2025-08-07 16:40:38,111 [Worker-145: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\2414296\OneDrive - Cognizant\Desktop\OFDS\OFDS\OFDS-main\order-service\src\test\resources
+2025-08-07 16:40:39,956 [Worker-145: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-07 16:40:40,061 [Worker-145: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources from src\main\resources to target\classes
+2025-08-07 16:40:40,186 [Worker-145: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\2414296\OneDrive - Cognizant\Desktop\OFDS\OFDS\OFDS-main\paymentmodule\src\test\resources
+2025-08-07 17:20:25,394 [Worker-279: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2025-08-07 17:20:55,334 [Worker-279: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.ofds:api-gateway:0.0.1-SNAPSHOT @ C:\Users\2414296\OneDrive - Cognizant\Desktop\OFDS\OFDS\OFDS-main\api-gateway\pom.xml.
+2025-08-07 17:21:09,796 [Worker-279: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.ofds:auth-service:0.0.1-SNAPSHOT @ C:\Users\2414296\OneDrive - Cognizant\Desktop\OFDS\OFDS\OFDS-main\auth-service\pom.xml.
+2025-08-07 17:21:21,383 [Worker-279: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example.customer:customer:0.0.1-SNAPSHOT @ C:\Users\2414296\OneDrive - Cognizant\Desktop\OFDS\OFDS\OFDS-main\customer\pom.xml.
+2025-08-07 17:21:33,815 [Worker-279: Updating Maven Project] WARN  o.e.m.c.i.embedder.EclipseLogger - The artifact org.hibernate:hibernate-validator:jar:8.0.1.Final has been relocated to org.hibernate.validator:hibernate-validator:jar:8.0.1.Final
+2025-08-07 17:21:36,345 [Worker-279: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.ofds:eurekaserver:0.0.1-SNAPSHOT @ C:\Users\2414296\OneDrive - Cognizant\Desktop\OFDS\OFDS\OFDS-main\eurekaServer\pom.xml.
+2025-08-07 17:21:41,365 [Worker-279: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.delivery:delivery-service:0.0.1-SNAPSHOT @ C:\Users\2414296\OneDrive - Cognizant\Desktop\OFDS\OFDS\OFDS-main\OFDS_DeliveryManagement\pom.xml.
+2025-08-07 17:21:48,799 [Worker-279: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.ofds:OFDSMenu:0.0.1-SNAPSHOT @ C:\Users\2414296\OneDrive - Cognizant\Desktop\OFDS\OFDS\OFDS-main\OFDS_MenuManagement\pom.xml.
+2025-08-07 17:21:54,849 [Worker-279: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.fooddelivery:order-service:0.0.1-SNAPSHOT @ C:\Users\2414296\OneDrive - Cognizant\Desktop\OFDS\OFDS\OFDS-main\order-service\pom.xml.
+2025-08-07 17:22:01,880 [Worker-279: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:demo:0.0.1-SNAPSHOT @ C:\Users\2414296\OneDrive - Cognizant\Desktop\OFDS\OFDS\OFDS-main\paymentmodule\pom.xml.
+2025-08-07 17:22:10,391 [Worker-279: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:Restaurant:0.0.1-SNAPSHOT @ C:\Users\2414296\OneDrive - Cognizant\Desktop\OFDS\OFDS\OFDS-main\Restaurant\pom.xml.
+2025-08-07 17:23:07,900 [Worker-279: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /api-gateway/src/main/java
+2025-08-07 17:23:07,901 [Worker-279: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /api-gateway/src/main/resources
+2025-08-07 17:23:07,901 [Worker-279: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /api-gateway/src/main/resources
+2025-08-07 17:23:07,902 [Worker-279: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /api-gateway/src/test/java
+2025-08-07 17:23:07,902 [Worker-279: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /api-gateway/src/test/resources
+2025-08-07 17:23:13,242 [Worker-279: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /auth-service/src/main/java
+2025-08-07 17:23:13,243 [Worker-279: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /auth-service/src/main/resources
+2025-08-07 17:23:13,244 [Worker-279: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /auth-service/src/main/resources
+2025-08-07 17:23:13,244 [Worker-279: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /auth-service/src/test/java
+2025-08-07 17:23:13,245 [Worker-279: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /auth-service/src/test/resources
+2025-08-07 17:23:16,372 [Worker-279: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /customer/src/main/java
+2025-08-07 17:23:16,384 [Worker-279: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /customer/src/main/resources
+2025-08-07 17:23:16,387 [Worker-279: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /customer/src/main/resources
+2025-08-07 17:23:16,387 [Worker-279: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /customer/src/test/java
+2025-08-07 17:23:16,388 [Worker-279: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /customer/src/test/resources
+2025-08-07 17:23:20,860 [Worker-279: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /eurekaServer/src/main/java
+2025-08-07 17:23:20,861 [Worker-279: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /eurekaServer/src/main/resources
+2025-08-07 17:23:20,862 [Worker-279: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /eurekaServer/src/main/resources
+2025-08-07 17:23:20,862 [Worker-279: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /eurekaServer/src/test/java
+2025-08-07 17:23:20,863 [Worker-279: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /eurekaServer/src/test/resources
+2025-08-07 17:23:31,091 [Worker-279: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /OFDS_DeliveryManagement/src/main/java
+2025-08-07 17:23:31,092 [Worker-279: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /OFDS_DeliveryManagement/src/main/resources
+2025-08-07 17:23:31,093 [Worker-279: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /OFDS_DeliveryManagement/src/main/resources
+2025-08-07 17:23:31,093 [Worker-279: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /OFDS_DeliveryManagement/src/test/java
+2025-08-07 17:23:31,094 [Worker-279: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /OFDS_DeliveryManagement/src/test/resources
+2025-08-07 17:23:41,576 [Worker-279: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /OFDS_MenuManagement/src/main/java
+2025-08-07 17:23:41,579 [Worker-279: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /OFDS_MenuManagement/src/main/resources
+2025-08-07 17:23:41,582 [Worker-279: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /OFDS_MenuManagement/src/main/resources
+2025-08-07 17:23:41,583 [Worker-279: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /OFDS_MenuManagement/src/test/java
+2025-08-07 17:23:41,589 [Worker-279: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /OFDS_MenuManagement/src/test/resources
+2025-08-07 17:23:46,561 [Worker-279: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /order-service/src/main/java
+2025-08-07 17:23:46,561 [Worker-279: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /order-service/src/main/resources
+2025-08-07 17:23:46,561 [Worker-279: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /order-service/src/main/resources
+2025-08-07 17:23:46,561 [Worker-279: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /order-service/src/test/java
+2025-08-07 17:23:46,578 [Worker-279: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /order-service/src/test/resources
+2025-08-07 17:23:57,948 [Worker-279: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /paymentmodule/src/main/java
+2025-08-07 17:23:57,948 [Worker-279: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /paymentmodule/src/main/resources
+2025-08-07 17:23:57,948 [Worker-279: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /paymentmodule/src/main/resources
+2025-08-07 17:23:57,948 [Worker-279: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /paymentmodule/src/test/java
+2025-08-07 17:23:57,963 [Worker-279: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /paymentmodule/src/test/resources
+2025-08-07 17:24:03,924 [Worker-279: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Restaurant/src/main/java
+2025-08-07 17:24:03,926 [Worker-279: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /Restaurant/src/main/resources
+2025-08-07 17:24:03,926 [Worker-279: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /Restaurant/src/main/resources
+2025-08-07 17:24:03,926 [Worker-279: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Restaurant/src/test/java
+2025-08-07 17:24:03,926 [Worker-279: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /Restaurant/src/test/resources
+2025-08-07 17:24:29,710 [Worker-279: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 9 poms: local refresh takes 7.00 sec, refresh facades takes 153.00 sec, update config takes 68.00 sec 
+2025-08-07 17:24:40,735 [Worker-107: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-07 17:24:40,931 [Worker-107: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-07 17:24:41,077 [Worker-107: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\2414296\OneDrive - Cognizant\Desktop\OFDS\OFDS\OFDS-main\OFDS_DeliveryManagement\src\test\resources
+2025-08-07 17:24:52,885 [Worker-107: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-07 17:24:52,968 [Worker-107: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-08-07 17:24:53,071 [Worker-107: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\2414296\OneDrive - Cognizant\Desktop\OFDS\OFDS\OFDS-main\OFDS_MenuManagement\src\test\resources
+2025-08-07 17:24:57,408 [Worker-107: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-07 17:24:57,537 [Worker-107: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-07 17:24:57,557 [Worker-107: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\2414296\OneDrive - Cognizant\Desktop\OFDS\OFDS\OFDS-main\Restaurant\src\test\resources
+2025-08-07 17:25:00,021 [Worker-107: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2025-08-07 17:25:00,146 [Worker-107: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2025-08-07 17:25:00,155 [Worker-107: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\2414296\OneDrive - Cognizant\Desktop\OFDS\OFDS\OFDS-main\api-gateway\src\test\resources
+2025-08-07 17:25:01,902 [Worker-107: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-07 17:25:01,970 [Worker-107: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-07 17:25:02,002 [Worker-107: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\2414296\OneDrive - Cognizant\Desktop\OFDS\OFDS\OFDS-main\auth-service\src\test\resources
+2025-08-07 17:25:04,804 [Worker-107: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-07 17:25:04,849 [Worker-107: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-07 17:25:04,857 [Worker-107: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\2414296\OneDrive - Cognizant\Desktop\OFDS\OFDS\OFDS-main\customer\src\test\resources
+2025-08-07 17:25:06,505 [Worker-107: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-07 17:25:06,589 [Worker-107: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-07 17:25:06,601 [Worker-107: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\2414296\OneDrive - Cognizant\Desktop\OFDS\OFDS\OFDS-main\eurekaServer\src\test\resources
+2025-08-07 17:25:08,502 [Worker-107: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-07 17:25:08,566 [Worker-107: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources from src\main\resources to target\classes
+2025-08-07 17:25:08,670 [Worker-107: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\2414296\OneDrive - Cognizant\Desktop\OFDS\OFDS\OFDS-main\order-service\src\test\resources
+2025-08-07 17:25:10,088 [Worker-107: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-07 17:25:10,155 [Worker-107: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources from src\main\resources to target\classes
+2025-08-07 17:25:10,255 [Worker-107: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\2414296\OneDrive - Cognizant\Desktop\OFDS\OFDS\OFDS-main\paymentmodule\src\test\resources
